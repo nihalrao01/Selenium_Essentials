@@ -13,8 +13,9 @@ public class SauceLabsExample {
 		browserOptions.setCapability("platform", "macOS 10.12");
 		browserOptions.setCapability("version", "66.0");
 		Map<String, Object> sauceOptions = new HashMap<>();
-		sauceOptions.put("username", "oauth-nihalrao01-ee993");
-		sauceOptions.put("accessKey", "99aefe25-a63a-4804-b433-0c4497916120");
+		//Paste the username and accessKey from sauceLabs
+		sauceOptions.put("username", "");
+		sauceOptions.put("accessKey", "");
 		sauceOptions.put("build", "selenium-build-BEDZE");
 		sauceOptions.put("name", "<your test name>");
 		browserOptions.setCapability("sauce:options", sauceOptions);
